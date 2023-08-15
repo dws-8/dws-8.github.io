@@ -1,7 +1,86 @@
+:root{
+    --font-color:tan;
+    --page-background: rgb(56, 54, 54);
+}
+
+html{
+    background-color: rgb(56, 54, 54);
+}
+
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: darkred;
+    color: var(--font-color);
     text-align: center;
     font-size: 50px;
     margin-top: 150px;
+    font-weight: lighter;
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--font-color);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    font-weight: lighter;
+}
+
+img{
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40%;
+    height: auto;
+}
+
+.home, .about-section, .resume-section, .projects-section {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--font-color);
+    font-size: 20px;
+    text-align: center;
+}
+
+.navbar{
+   position: fixed;
+   top: 0;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   margin-left: 77%;
+   margin-right: 5%;
+   margin-top: 20px; 
+   width: 400px;
+   border: solid 4px;
+   border-radius: 8px;
+   border-color: var(--font-color);
+}
+
+#email{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--font-color);
+    font-size: 20px;
+}
+
+.nav-item{
+    display: list-item;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 4px  ;
+    border-color: var(--page-background);
+    background: var(--font-color);
+
+}
+
+.nav-item:hover > .nav-link{
+    background-color: var(--page-background);
+    color: var(--font-color);
+
+}
+
+.nav-link{
+    color: var(--page-background);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
 }
