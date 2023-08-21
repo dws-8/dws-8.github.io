@@ -38,7 +38,7 @@ img{
     height: auto;
 }
 
-.home, .about-section, .resume-section, .projects-section {
+.home-section, .about-section, .resume-section, .projects-section {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--font-color);
     font-size: 20px;
