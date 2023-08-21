@@ -60,7 +60,7 @@ img{
    justify-content: space-evenly;
    margin-left: 77%;
    top: 5px; 
-   width: 30%vw;
+   width: 30%;
    border: solid 4px;
    border-radius: 8px;
    border-color: var(--font-color);
@@ -105,10 +105,14 @@ img{
     box-shadow: 0 0 4px 5px blue;
 }
 
-@media (max-width:750px){
+@media (max-width:768px){
     body{
         padding-top: 0px;
     }
+    .navbar{
+        width: 100%;
+    }
+    
 }
 
 footer{
