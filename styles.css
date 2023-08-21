@@ -60,7 +60,7 @@ img{
    justify-content: space-evenly;
    margin-left: 77%;
    top: 5px; 
-   width: 30%;
+   width: 30%vw;
    border: solid 4px;
    border-radius: 8px;
    border-color: var(--font-color);
@@ -110,9 +110,13 @@ img{
         padding-top: 0px;
     }
     .navbar{
-        width: 100%;
+        width: 100%vw;
     }
-    
+
+    .nav-item{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 footer{
