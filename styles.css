@@ -107,7 +107,7 @@ img{
 
 @media (max-width:768px){
     body{
-        padding-top: 0px;
+        padding-top: 10px;
     }
     .navbar{
         width: 100%vw;
@@ -116,6 +116,10 @@ img{
     .nav-item{
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    .content-box{
+        width: 80%;
     }
 }
 
