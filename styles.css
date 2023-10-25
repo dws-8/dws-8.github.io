@@ -105,6 +105,25 @@ img{
     box-shadow: 0 0 4px 5px blue;
 }
 
+#proj-thumb{
+    border-radius: 10px;
+    border: 5px solid #ddd;
+}
+
+#proj-thumb:hover{
+    box-shadow: 0 0 4px 5px blue;
+}
+
+#proj-link{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--font-color);
+    font-size: 20px;
+}
+
+#proj-link:hover{
+    box-shadow: 0 0 4px 5px #ddd;
+}
+
 @media (max-width:768px){
     body{
         padding-top: 10px;
