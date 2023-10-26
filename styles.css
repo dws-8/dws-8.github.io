@@ -39,7 +39,7 @@ img{
 }
 
 .home-section, .about-section, .resume-section, .projects-section {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: var(--font-color);
     font-size: 20px;
     text-align: center;
@@ -68,7 +68,7 @@ img{
 }
 
 #email{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: var(--font-color);
     font-size: 20px;
 }
@@ -92,7 +92,7 @@ img{
 
 .nav-link{
     color: var(--page-background);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
 
@@ -115,7 +115,7 @@ img{
 }
 
 #proj-link{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;;
     color: var(--font-color);
     font-size: 20px;
 }
@@ -144,7 +144,7 @@ img{
 
 footer{
     text-align: right;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color:var(--font-color)
 }
